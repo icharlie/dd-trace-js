@@ -409,6 +409,13 @@ jobs:
       - store_artifacts:
           path: /tmp/artifacts
 
+  node-bench-sirun-profiler-latest:
+    <<: *node-bench-sirun-base
+    docker:
+      - image: node
+        environment:
+          - SIRUN_TEST_DIR=profiler
+
   # Core tests
 
   node-core-8:
