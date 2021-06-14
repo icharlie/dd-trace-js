@@ -50,8 +50,8 @@
     "url": "https://github.com/DataDog/dd-trace-js/issues"
   },
   "homepage": "https://github.com/DataDog/dd-trace-js#readme",
-  "engines": {
-    "node": ">=8"
+  "dd-trace": {
+    "nodejsVersions": [8, 9, 10, 11, 12, 13, 14, 15, 16]
   },
   "dependencies": {
     "@types/node": "^10.12.18",
